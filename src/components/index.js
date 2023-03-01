@@ -1,0 +1,7 @@
+export { default as Nav } from './Navbar' 
+export { default as Intro } from './Main' 
+export { default as Arrival } from './Newarrival' 
+export { default as Brand } from './Brandcard' 
+export { default as Trending } from './Trendingcollection' 
+export { default as Review } from './Reviewcard' 
+export { default as Footer } from './Aboutfooter' 

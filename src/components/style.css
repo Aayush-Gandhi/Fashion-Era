@@ -1,0 +1,2668 @@
+*{
+     margin: 0;
+      
+     padding:0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+* p{
+     margin-bottom: 0 !important;
+     line-height: 1.5;
+}
+
+* h2{
+     margin-bottom: 0 !important;
+}
+
+
+.nav-title{
+     font-weight: b;
+}
+.navbar-collapse{
+     position: relative;
+     margin-right: 2%;
+}
+.pop-img{
+     position: absolute;
+     top: 1px;
+     width: 1%;
+}
+.pop-img-arrow{
+     position: absolute;
+     top: 1px;
+     width: 1.3%;
+     justify-content: space-evenly;
+}
+.pop-img-heart{
+     position: absolute;
+     top: 1px;
+     width: 1.3%;
+     justify-content: space-evenly;
+}
+.search-nav{
+     margin-right: 4%;
+}
+.logo{
+     margin-left: 9%;
+     font-size: 1.5rem;
+     font-weight: bold;
+     
+}
+.fashion{
+     color: #004743;
+}
+/* .winter-notification::before{
+     content: url("Images/new-pop.png");
+     width: 1px;
+} */
+/* 
+.nav-bar{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.menus{
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+a{
+     padding: 10px;
+}
+span{
+     color: #f8f405;
+} */
+
+.cart{
+     background-color: #11331200;
+     font-size: 1.4rem;
+     margin-left: 10%;
+}
+.heart{
+     background-color: #11331200;
+     font-size:1.4rem;
+     margin-left: 10%;
+}
+.user{
+     background-color: #11331200;
+     font-size:1.4rem;
+     margin-left: 10%;
+}
+
+button{
+     border: transparent;
+}
+/* 
+.navbar{
+     padding-left: 10%; 
+     font-family: 'Roboto', sans-serif;
+     font-weight: bolder;
+} */
+.nav-item{
+     padding-left: 15%;
+     font-weight: bold;
+}
+#search{
+     width: 30%;
+     margin-left: 30%;
+}
+
+
+/* section */
+
+/* section{
+     padding: 10px 0;
+     overflow: hidden;
+} */
+
+
+#intro{
+     width: 100%;
+     /* height: 70vh; */
+     background-color: rgb(229,229,229,0.6);
+     position: relative;
+     display: flex;
+
+}
+
+.about-img{
+     width: 80%;
+     margin-left: 10%;
+}
+.info{
+     padding-top: 10%;
+     max-width: 50%;
+}
+.head-info{
+     padding-top: 20%;
+     margin-left: 20%;
+     opacity: 0.7;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     letter-spacing: 0.105em;
+     line-height: 29px;
+}
+
+.explore{
+     margin-left: 20%;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 3rem;
+}
+
+.btn-success{
+     margin-left: 20%;
+     background-color: #113312; /* Green */
+     border: none;
+     padding: 12px 20px;
+     border-radius: 20px;
+}
+
+.intro-img{
+     max-width: 50%;
+}
+#Himg{
+     /* position: absolute; */
+     max-width: 100%;
+     height: 100%;
+     /* top: 70px; */
+}
+
+
+/* Offer */
+
+#offer{
+     position: relative;
+}
+.ad{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+#offer-img-girls{
+     /* position: absolute; */
+     /* width: 620px;
+     height: 250px;
+     left: 202px; */
+     max-width: 45%;
+     left: 20%;
+     top: 110%;
+}
+.btn-success-girls{
+     background-color: #ffffff; 
+     border: none;
+     font-size: 0.8rem;
+     font-weight: bold;
+     padding: 10px 30px;
+     border-radius: 20px;
+     position: absolute;
+     left: 10%;
+     color: rgb(0, 0, 0);
+     margin-top: 15%;
+}
+
+#offer-img-mens{
+     /* position: absolute; */
+     /* width: 620px;
+     height: 250px; */
+     max-width: 45%;
+     left: 900px;
+}
+.btn-success-mens{
+     position: absolute;
+     background-color: #ffffff; 
+     border: none;
+     font-size: 0.8rem;
+     font-weight: bold;
+     padding: 10px 30px;
+     border-radius: 20px;
+     left: 58%;
+     color: rgb(0, 0, 0);
+     margin-top: 15%;
+}
+
+.baby{
+     display: flex;
+}
+#offer-img-baby{
+     /* position: absolute; */
+     /* width: 1020px;
+     height: 250px;
+     left: 250px;
+     top: 1085px; */
+     max-width: 93%;
+     margin-left: 4%;
+     margin-top: 2%;
+}
+.btn-success-baby{
+     background-color: #074e33; 
+     border: none;
+     font-size: 0.8rem;
+     font-weight: bold;
+     padding: 14px 32px;
+     border-radius: 20px;
+     position: absolute;
+     left: 30%;
+     color: rgb(255, 255, 255);
+     margin-top: 30%;
+
+}
+
+
+
+/* New Arrivals */
+
+.new-arrival{
+     font-size: 3rem;
+     font-weight: 700;
+     /* position: absolute; */
+     margin-top: 3%;
+     text-align: center;
+     /* padding-left: 39%; */
+}
+
+.brands{
+     /* position: absolute; */
+     font-weight: 400;
+     /* margin-top:4%; */
+     /* padding-left:35%; */
+     text-align: center;
+     font-size: 1.2rem;
+     opacity: 50%;
+}
+
+
+.arrival{
+     margin-bottom: 0;
+}
+.arrival-button{
+     font-size: 0.8rem;
+     position: relative;
+     margin-top: 5%;
+     /* padding-left: 2%; */
+     display: flex;
+     justify-content: center;
+     gap: 1%;
+}
+.btn-success-all{
+     width: 80px;
+     background-color: #FBD103; 
+     border: none;
+     font-size: 0.8rem;
+     padding: 10px 11px;
+     border-radius: 20px;
+     /* position: absolute; */
+     /* margin-left: 0%; */
+     color: rgb(0, 0, 0);
+     text-align: center;
+ 
+ }
+ .btn-success-btnmen{
+     opacity: 50%;
+     width: 80px;
+     background-color: white; 
+     color: black; 
+     border: 3px solid #000000;
+     padding: 12px 18px;
+     border-radius: 20px;
+     /* position: absolute; */
+     /* margin-left: 20%; */
+     color: rgb(0, 0, 0);
+     text-align: center;
+ 
+ }
+ 
+ .btn-success-btnwomen{
+     width: 80px;
+     opacity: 50%;
+     background-color: white; 
+     color: black; 
+     border: 3px solid #000000;
+     padding: 12px 10px;
+     border-radius: 20px;
+     /* position: absolute; */
+     /* margin-left: 40%; */
+     color: rgb(0, 0, 0);
+     text-align: center;
+ 
+ }
+ 
+ .btn-success-btnkids{
+     width: 80px;
+     opacity: 50%;
+     background-color: white; 
+     color: black; 
+     border: 3px solid #000000;
+     padding: 12px 22px;
+     border-radius: 20px;
+     /* position: absolute; */
+     /* margin-left: 60%; */
+     color: rgb(0, 0, 0);
+     text-align: center;
+ 
+ }
+ 
+
+
+
+.cards{
+     width: 20%;
+     margin-top: 4%;
+     margin-left: 4%;
+     /* display: inline-block; */
+     position: relative;
+}
+.image img{
+     width: 100%;
+     /* position: absolute; */
+}
+
+.title{
+     font-weight: 200;     
+}
+.img-title{
+     /* margin-top: 20%; */
+     font-size: 0.8rem;
+     font-weight: 700;
+     opacity: 50%;
+}
+.img-sub-title{
+     font-weight: bold;
+     font-size: 1rem !important;
+}
+
+.head-price{
+     font-size: 1.2rem;
+     display: inline-block;
+     color: #74CA4D;
+}
+
+.strike-price{
+     padding-left: 2%;
+}
+
+
+.round {
+     margin-top: 2%;
+     text-decoration: none;
+     display: inline-block;
+     padding: 11px 20px;
+}
+   
+a:hover {
+     background-color: #ddd;
+     color: black;
+}
+   
+.previous {
+     background-color: #ffffff;
+     color: black;
+     justify-content: center;
+     margin-left: 48%;
+     border: 2px solid black;
+     
+}
+   
+.next {
+     background-color: #ffffff;
+     color: rgb(0, 0, 0);
+     border: 2px solid black;
+}
+   
+.round {
+     border-radius: 50%;
+}
+
+
+.brand-card{
+     margin-top: 2%;
+     width: 50%;
+     margin-left: 28%;
+     display: inline-block;
+     background-color: #02422a;
+     border-radius: 20px;
+}
+.brand-card-all{
+     display: inline-block;
+}
+.card-text{
+     margin-top: 3%;
+     color: #ffffff;
+     /* margin-left: 30%; */
+     text-align: center;
+}
+.card-text-2{
+     margin-top: 1%;
+     color: #ffffff;
+     text-align: center;
+     /* margin-left: 35%; */
+}
+.btn-img{
+     width: 70%;
+     margin: 0 auto;
+     
+}
+.btn-brand{
+     display: flex;
+     justify-content: center;
+     margin-top: 4%;
+     /* margin-left: 20%; */
+     margin-bottom: 3%;
+}
+.btn-brand-symbol{
+     border: 2px solid black;
+     background-size: cover;
+     background-color: #ffffff;
+     border-radius: 20px;
+     width: 90px;
+     height: 50px;
+     margin-left: 2%;
+}
+
+.trending-collection{
+     font-size: 3rem;
+     text-align: center;
+     /* position: absolute; */
+     margin-top: 5%;
+     font-weight: bold;
+     /* padding-left: 35%; */
+}
+
+.buyers-brands{
+     text-align: center;
+     /* position: absolute; */
+     /* margin-top: 6%; */
+     font-weight: 1.2rem;
+     /* padding-left: 37%; */
+     font-weight: 400;
+     opacity: 50%;
+
+}
+
+.trending-cards{
+     width: 20%;
+     margin-top: 3%;
+     margin-left: 4%;
+     display: inline-block;
+     justify-content: center;
+     align-items: center;
+}
+.trending-image img{
+     width: 100%;
+     vertical-align: middle;
+
+}
+.raiting{
+     margin-top: 0%;
+     display: flex;
+     justify-content: flex-end;
+     gap: 1%;
+     /* marxgin-left: 60%; */
+}
+.checked{
+     color: orange;
+}
+.title{
+     font-weight: 200;     
+}
+.pricing{
+     color: #175c1a;
+}
+
+
+.about-review{
+     background-color: rgb(229,229,229,0.6);
+     margin-top: 2%;
+}
+.review-line{
+     margin-top: 2%;
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 700;
+}
+.news-title{
+     font-weight: bold;
+}
+.customer-line{
+     text-align: center;
+     /* margin-left: 42%; */
+     font-size: 1rem;
+     opacity: 50%;
+}
+
+
+.review-img{
+     width: 60%;
+     height: auto;
+     margin-top: 3%;
+     margin-left: 25%;
+     margin-bottom: 2%;
+}
+.review-card{
+     position: relative;
+
+}
+.review-card-text{
+     position: relative;
+}
+.review-card-review{
+     width: 20%;
+     position: absolute;
+     margin-left: 50%;
+     top: 20%;
+     text-align: justify;
+     font-size: 0.9rem;
+}
+
+.card-previous {
+     bottom: 15px;
+     position: absolute;
+     background-color: #ffffff;
+     color: black;
+     left: 65%;
+     padding:4px 12px;
+     /* margin-top: 15%; */
+     border: 2px solid black;
+     
+}
+   
+.card-next {
+     bottom: 15px;
+     position: absolute;
+     background-color: #ffffff;
+     color: rgb(0, 0, 0);
+     padding:4px 12px;
+     border: 2px solid black;
+     left: 69%;
+     /* margin-top: 15%; */
+
+}
+
+.news-img{
+     width: 7%;
+     /* justify-content: center; */
+     margin-left: 47%;
+     margin-top: 3%;
+}
+
+.subscribe-news{
+     /* margin-top: 2%; */
+     /* padding-left: 45%; */
+     /* text-align: center; */
+     font-size: 3rem;
+     font-weight: 700;
+}
+
+.subscribe-email{
+     /* margin-top: 2%; */
+     /* padding-left: 34%; */
+     font-size: 1.2rem;
+     opacity: 50%;
+}
+.news-title{
+     text-align: center;
+}
+
+
+
+.footer-padding{
+     position: relative;
+}
+.input-group{
+     position: absolute;
+     margin-left: 27%;
+     margin-top:1% ;
+     width: 50%; 
+     height: 10%;  
+}
+.search-news{
+     margin-top: 5%;
+     position: relative;
+} 
+.mail-img-btn{
+     position: absolute;
+     top: 50%;
+     right: 10px;
+     width: 8%;
+     border-radius: 50%;
+     transform: translatey(-50%);
+}
+.mail-img-btn img{
+     width: 100%;
+}
+.form-control{
+     border-radius: 10px 10px;
+     background-color: rgb(216, 216, 216);
+     position: relative;
+     border-radius: 100px;
+     /* height: 50%; */
+     /* z-index: 1000; */
+}
+
+.enter-mail{
+     position: relative;
+}
+
+
+.social-btn{
+     margin-top: 10%;
+     margin-left: 40%;
+     /* margin-bottom: 10%; */
+     
+}
+
+
+.rounded-circle{
+     border-radius: 20px;
+}
+.btn-social-btn{
+     position: relative;
+     border: 2px solid transparent;
+     background-size: cover;
+     background-color: #e9e4e4;
+     border-radius: 100%;
+     width: 50px;
+     height: 50px;
+     margin-left: 4%;
+}
+
+.social-img{
+     width: 70%;
+}
+
+
+.footer-row{
+     margin-top: 3%;
+     margin-left: 10%;
+}
+
+h2{
+     font-weight: bold;
+}
+.footer-title{
+     margin-top: 10px;
+     font-weight: bold;
+}
+a{
+     color: #000000;
+}
+
+a:link{
+     text-decoration: none;
+     
+}
+a:hover{
+     text-decoration: underline;
+}
+
+li{
+     text-align: justify;
+}
+
+
+
+/* ----------------------------------1024--------------------------------- */
+
+
+@media screen and (max-width: 1439px) and (min-width: 1024px){
+     
+    
+    
+     .pop-img{
+          width: 4%;
+     }
+     .pop-img-arrow{
+          width: 2%;
+     }
+     .pop-img-heart{
+          width: 2%;
+     }
+     .search-nav{
+          margin-right: 4%;
+     }
+     
+     .logo{
+          margin-left: 2%;
+          font-size: 1rem;
+}
+     
+     
+     .nav-item{
+          padding-left: 5%;
+          font-weight: bold;
+          font-size: 0.8rem;
+     }
+     #search{
+          width: 30%;
+          margin-left: 13%;
+     }
+     
+
+     
+     
+     #intro{
+          width: 100%;
+          height: 70vh;
+          background-color: rgb(229,229,229,0.6);
+          position: relative;
+          /* display: flex; */
+     }
+     
+     
+     .head-info{
+          font-size: 1rem;
+          padding-top: 2%;
+          margin-bottom: 1%;
+     }
+     
+     .explore{
+          margin-bottom: 0;
+          font-size: 1.2rem;
+     }
+     
+     .btn-success{
+          font-size: 0.8rem;
+          padding: 6px 12px;
+          margin-top: 2%;     }
+     #Himg{
+          max-width: 100%;
+          /* height: 90%; */
+          /* margin-left: 50%; */
+          top: 2%;
+     }
+     
+     
+     /* Offer */
+     
+     
+     #offer-img-girls{
+          /* position: absolute; */
+          /* width: 620px;
+          height: 250px;
+          left: 202px; */
+          max-width: 30%;
+          left: 20%;
+          top: 110%;
+     }
+     .btn-success-girls{
+         
+          padding: 6px 12px;
+          font-size: 0.8rem;
+          border-radius: 20px;
+          left: 15%;
+          margin-top: 10%;
+     }
+     
+     #offer-img-mens{
+          /* position: absolute; */
+          /* width: 620px;
+          height: 250px; */
+          max-width: 30%;
+          left: 900px;
+     }
+     .btn-success-mens{
+          font-size: 0.8rem;;
+          padding: 6px 12px;
+          border-radius: 20px;
+          left: 58%;
+          margin-top: 10%;
+     }
+     
+     #offer-img-baby{
+          /* position: absolute; */
+          /* width: 1020px;
+          height: 250px;
+          left: 250px;
+          top: 1085px; */
+          max-width: 70%;
+          margin-left: 16%;
+          margin-top: 2%;
+     }
+     .btn-success-baby{
+          font-size: 0.8rem;
+          padding: 6px 12px;
+          left: 33%;
+          margin-top: 22%;
+     
+     }
+     
+     
+     
+     /* New Arrivals */
+     
+     .new-arrival{
+          font-size: 2rem;  
+          /* padding-left: 38%; */
+          margin-bottom: 0;
+     }
+     
+     .brands{
+          /* padding-left:33%; */
+          font-size: 0.8rem;
+     }
+     
+     
+     .arrival-button{
+          position: relative;
+          /* margin-top: 10%ma; */
+          /* padding-left: 2%; */
+     }
+     .btn-success-all{
+          /* width: 5%; */
+          padding: 7px 11px;
+          font-size: 0.8rem;          
+      
+      }
+      .btn-success-btnmen{
+          width: 80px;
+          padding: 12px 18px;
+      }
+      
+      .btn-success-btnwomen{
+          width: 80px;
+          padding: 12px 10px;
+      
+      }
+      
+      .btn-success-btnkids{
+          width: 80px;         
+          padding: 12px 22px;
+      
+      }
+      
+     
+     
+     
+     .cards{
+          margin-top: 3%;       
+     }
+     .image img{
+          width: 100%;
+          /* position: absolute; */
+     }
+    
+     .img-title{
+          font-size: 0.9rem;
+          margin-bottom: 0%;
+     }
+     .img-sub-title{
+          font-size: 0.9rem;
+          max-width: 100%;
+     }
+     
+     
+     .round {
+          margin-top: 2%;
+          padding: 6px 12px;
+     }
+        
+
+        
+     .previous {
+          margin-left: 45%;
+          
+     }
+        
+     
+     
+     .brand-card{
+          margin-top: 2%;
+          width: 70%;
+          margin-left: 16%;
+     }
+
+     .card-text{
+          margin-top: 3%;
+          /* margin-left: 30%; */
+     }
+
+
+
+     .trending-collection{
+          font-size: 2rem;
+          margin-top: 6%;
+          margin-bottom: 0;
+     }
+     
+     .buyers-brands{
+          font-weight: 1.2rem;
+          /* padding-left: 30%; */
+     }
+     
+     .trending-card-row{
+          justify-content: center !important;
+     }
+     .trending-cards{
+          width: 20%;
+          justify-content: center;
+          /* margin-top: 17%; */
+     
+     }
+     .trending-image img{
+          width: 100%;
+          vertical-align: middle;
+     
+     }
+     
+     
+.previous{
+     margin-left: 47%;
+}
+
+     .about-review{
+          margin-top: 2%;
+     }
+     .review-line{
+          margin-top: 2%;
+          /* margin-left: 42%; */
+          font-size: 2rem;
+          margin-bottom: 0%;
+     }
+     .customer-line{
+          margin-top: 0;
+          /* margin-left: 34%; */
+          font-size: 1rem;
+     }
+     
+     
+     .review-img{
+          width: 60%;
+          height: auto;
+          margin-top: 0%;
+          margin-left: 25%;
+          margin-bottom: 2%;
+     }
+     
+     .review-card-review{
+          width: 22%;
+          font-size: 0.6rem;
+          margin-left: 50%;
+          top: 10%;
+     }
+     
+     .card-previous {
+          left: 60%;
+          padding: 4px 10px;
+          /* margin-top: 12%;       */
+     }
+        
+     .card-next {
+          left: 64%;
+          padding:4px 10px;
+          /* margin-top: 12%; */
+     }
+     
+     .news-img{
+          width: 7%;
+          margin-left: 47%;
+          margin-top: 3%;
+     }
+     
+     .subscribe-news{
+          /* margin-top: 2%; */
+          /* padding-left: 42%; */
+          font-size: 1.5rem;
+          font-weight: 700;
+     }
+     
+     .subscribe-email{
+          /* margin-top: 4%; */
+          /* padding-left: 28%; */
+          font-size: 0.9rem;
+          opacity: 50%;
+     }
+     
+     
+     .input-group{
+          position: absolute;
+          margin-left: 27%;
+          /* margin-top:10% ; */
+          width: 50%; 
+          height: 50px;  
+     }
+   
+     
+     .enter-mail{
+          position: relative;
+     }
+     .mail-img{
+          position: absolute;
+          /* margin-top: 1%; */
+          margin-left: 72%;
+          width: 6%;
+     }
+     
+     .social-btn{
+          margin-top: 15%;
+          margin-left: 40%;
+          /* margin-bottom: 10%; */
+          
+     }
+     
+     
+     .rounded-circle{
+          border-radius: 20px;
+     }
+     .btn-social-btn{
+          position: relative;
+          border: 2px solid transparent;
+          background-size: cover;
+          background-color: #e9e4e4;
+          border-radius: 100%;
+          width: 50px;
+          height: 40px;
+          margin-left: 4%;
+     }
+     
+     .social-img{
+          width: 70%;
+     }
+     
+     
+     .footer-row{
+          margin-top: 3%;
+          margin-left: 10%;
+     }
+     
+     h5{
+          font-weight: bold;
+     }
+     a{
+          color: #000000;
+     }
+     
+     a:link{
+          text-decoration: none;
+          
+     }
+     a:hover{
+          text-decoration: underline;
+     }
+     
+     li{
+          text-align: left;
+     }
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------Tablet-768--------------------------------- */
+
+
+
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+
+     /* .navbar{
+          width: 90%;
+     }
+     */
+     #search{
+          flex-direction: column;
+          margin-left: 2%;
+
+     }
+     .pop-img{
+          position: absolute;
+          top: 32.5%;
+          left: 18%;
+          width: 5%;
+     }
+     .pop-img-arrow{
+          position: absolute;
+          top: 16rem;
+          width: 2.2%;
+     }
+     .pop-img-heart{
+          position: absolute;
+          top: 18.2rem;
+          width: 2.2%;
+     }
+     
+     .search-nav{
+          left: 20%;
+     }
+
+     
+     
+     
+     /* section */
+     .head-info{
+          opacity: 50%;
+          font-size: 1rem;
+          font-weight:500;
+          margin-bottom: 0%;  
+     }
+
+     .explore{
+          margin-bottom: 0%;
+          font-size: 2rem;
+     }
+     
+     
+     .btn-success{
+          font-size: 0.7rem;
+          padding: 7px 11px;
+          
+     }
+     
+     #Himg{
+          /* position: absolute; */
+          max-width: 100%;
+          height: 100%;
+          /* left: 20%; */
+          top: 10%;
+     }
+     
+     
+     /* Offer */
+     
+      #offer-img-girls{
+          max-width: 38%;
+          left: 10%;
+          top: 110%;
+     }
+     .btn-success-girls{
+          font-size: 0.5rem;
+          padding: 5px 18px;
+          left: 13%;
+          margin-top: 12.5%;
+     }
+     
+     #offer-img-mens{
+          max-width: 38%;
+          left: 52%;
+     }
+     .btn-success-mens{
+          font-size: 0.5rem;
+          padding: 5px 18px;
+          left: 58%;
+          margin-top: 12.5%;
+     }
+     
+     
+     #offer-img-baby{     
+          max-width: 75%;
+          margin-left: 12%;
+     }
+     .btn-success-baby{
+          font-size: 0.5rem;
+          padding: 7px 18px;
+          left: 30%;
+          margin-top: 25%;
+     }
+      
+     
+     
+     /* New Arrivals */
+     
+     .new-arrival{
+          margin-top: 5%;
+          /* padding-left: 30%; */
+          font-size: 2rem;
+}
+     
+    .brands{
+          
+          /* margin-top: 9%; */
+          /* padding-left: 25%; */
+          /* text-align: center; */
+          font-size: 0.8rem;
+
+     }
+     
+     
+     
+     .arrival-button{
+          /* margin-top: 20%; */
+          /* padding-left: 25%; */
+          position: relative;
+     }
+     .btn-success-all{
+          font-size: 0.8rem;
+          padding: 9px 21px;
+          margin-left: 1%;
+      
+      }
+      .btn-success-btnmen{
+          font-size: 0.8rem;
+          padding: 6px 18px;
+          margin-left: 1%;
+      
+      }
+      .btn-success-btnwomen{
+          /* width: 80px; */
+          font-size: 0.8rem;
+          padding: 6px 10px;
+          margin-left: 2%;
+      
+      }
+      .btn-success-btnkids{
+          font-size: 0.8rem;          
+          padding: 6px 22px;
+          margin-left: 1%;
+      
+      }
+      
+     
+     
+      /* cards */
+     
+     .cards{
+          width: 20%;
+          margin-top: 5%;
+          margin-left: 4%;
+          /* display: inline-block; */
+          position: relative;
+     }
+     .image img{
+          width: 100%;
+     
+     }
+     .raiting{
+          max-width: 100%;
+          margin-left: 20%;
+     }
+     
+     
+     .img-title{
+          font-size: 1rem;
+          font-weight: 700; 
+          margin-bottom: 0;   
+     }
+     .img-sub-title{
+          font-size: 0.8rem;
+     }
+     
+
+     .round {
+          max-width: 1%;
+          margin-top: 2%;
+          text-decoration: none;
+          display: inline-block;
+          padding: 18px 26px;
+     }
+        
+    
+     .previous {  
+          padding: 7px 18px;
+          margin-left: 45%;
+     }
+        
+     .next {
+          padding: 7px 18px;
+     }
+        
+     
+     
+     .brand-card{
+          width: 70%;
+          margin-left: 18%;          
+     }
+     
+     .btn-img{
+          width: 70%;
+     }
+     .btn-brand{
+          /* margin-left: 5%; */
+     }
+    
+     
+     .trending-collection{
+          margin-top: 2%;
+          /* padding-left: 20%; */
+     }
+     
+     
+     
+     .trending-cards{
+          width: 20%;
+          /* margin-top: 20%; */
+          margin-left: 4%;
+          
+     }
+     .trending-image img{
+          width: 100%;
+          vertical-align: middle;
+     
+     }
+     
+     
+     
+     .about-review{
+          margin-top: 2%;
+     }
+     .reviews{
+          position: absolute;
+          margin-top: 2%;
+          padding-left: 20%;
+     }
+     
+     .customer-line{
+          position: absolute;
+          width: 100%;
+          margin-top: 10%;
+          /* margin-left: 25%; */
+     }
+     
+     .review-img{
+          margin-top: 20%;
+          margin-left: 25%;
+     }
+     .review-card{
+          position: relative;
+     
+     }
+     .review-card-text{
+          position: relative;
+     }
+     .review-card-review{
+          width: 30%;
+          margin-left: 43%;
+          top: 55%;
+          font-size: 0.6rem;
+     }
+     
+     .card-previous {
+          left: 65%;
+          /* margin-top: 10%; */
+          padding: 0px 11px;          
+     }
+        
+     .card-next {
+          padding: 0px 11px;          
+          left: 69%;
+          /* margin-top: 30%; */
+     
+     }
+     
+     .news-img{
+          width: 7%;
+          margin-left: 47%;
+          margin-top: 3%;
+     }
+     
+     .subscribe-news{
+          margin-top: 2%;
+          /* padding-left: 35%; */
+     }
+     
+     .subscribe-email{
+          /* padding-left: 27%; */
+          font-size: 1rem;
+     }
+     .search-news{
+          margin-top: 5%;
+     } 
+     .mail-img-btn{
+          position: absolute;
+          top: 32%;
+          right: 10px;
+          width: 14%;
+          border-radius: 50%;
+          transform: translatey(-50%);
+     }
+     .mail-img-btn img{
+          width: 100%;
+     }
+      
+     .social-btn{
+          margin-top: 15%;
+          margin-left: 40%;
+          margin-bottom: 5%;
+          
+     }
+     
+     .btn-social-btn{
+          position: relative;
+          width: 25px;
+          height: 25px;
+          margin-left: 4%;
+     }
+     
+     .social-img{
+          width: 90%;
+     }
+     
+     .about-footer{
+          width: 90%;
+     }
+    
+}
+
+
+
+
+
+
+/* ----------------------------------425-------------------------- */
+
+@media screen and (max-width:767px) and (min-width:425px){
+
+
+     
+#search{
+          flex-direction: column;
+          margin-left: 2%;
+
+     }
+     .pop-img{
+          position: absolute;
+          top: 34%;
+          left: 18%;
+          width: 7%;
+     }
+     .pop-img-arrow{
+          position: absolute;
+          top: 16rem;
+          width: 2.2%;
+     }
+     .pop-img-heart{
+          position: absolute;
+          top: 18.2rem;
+          width: 2.2%;
+     }
+
+
+     
+     
+     
+     /* section */
+     .head-info{
+          opacity: 50%;
+          font-size: 0.5rem;
+          font-weight:500;
+          margin-bottom: 0%;  
+          padding-top: 25%;
+     }
+
+     .explore{
+          margin-bottom: 0%;
+          font-size: 0.9rem;
+     }
+     
+     
+     .btn-success{
+          font-size: 0.5rem;
+          padding: 6px 7px;
+          
+     }
+     
+     #Himg{
+          /* position: absolute; */
+          max-width: 100%;
+          height: 100%;
+          /* left: 20%; */
+          top: 10%;
+     }
+     
+     
+     /* Offer */
+     
+      #offer-img-girls{
+          max-width: 38%;
+          left: 10%;
+          top: 110%;
+     }
+     .btn-success-girls{
+          font-size: 0.5rem;
+          padding: 2px 6px;
+          left: 13%;
+          margin-top: 12.5%;
+     }
+     
+     #offer-img-mens{
+          max-width: 38%;
+          left: 52%;
+     }
+     .btn-success-mens{
+          font-size: 0.5rem;
+          padding: 2px 6px;
+          left: 58%;
+          margin-top: 12.5%;
+     }
+     
+     
+     #offer-img-baby{     
+          max-width: 85%;
+          margin-left: 8%;
+     }
+     .btn-success-baby{
+          font-size: 0.5rem;
+          padding: 4px 8px;
+          left: 27%;
+          top: 42%;
+     }
+      
+     
+     
+     /* New Arrivals */
+     
+     .new-arrival{
+          /* padding-left: 35%; */
+          font-size: 1.5rem;
+}
+     
+    .brands{
+          
+          /* margin-top: 1%; */
+          /* padding-left: 25%; */
+          font-size: 0.6rem;
+
+     }
+     
+     
+     
+     .arrival-button{
+          /* margin-top: 20%; */
+          /* padding-left: 25%; */
+          position: relative;
+     }
+     .btn-success-all{
+          width: 14%;
+          font-size: 0.5rem;
+          padding: 5px 8px;
+          margin-left: 0%;
+      
+      }
+      .btn-success-btnmen{
+          width: 14%;
+          font-size: 0.5rem;
+          padding: 6px 18px;
+          margin-left: 1%;
+      
+      }
+      .btn-success-btnwomen{
+          /* width: 80px; */
+          width: 14%;
+          font-size: 0.5rem;
+          padding: 6px 10px;
+          margin-left: 1%;
+      
+      }
+      .btn-success-btnkids{
+          width: 14%;
+          font-size: 0.5rem;          
+          padding: 6px 22px;
+          margin-left: 1%;
+      
+      }
+      
+     
+     
+      /* cards */
+     
+     .cards{
+          width: 40%;
+          margin-top: 15%;
+          margin-left: 0%;
+          /* display: inline-block; */
+          position: relative;
+          /* justify-content: center; */
+     }
+     .trending-cards-1{
+          max-width: 100%;
+          justify-content: center;
+          margin: 0;
+          padding: 0;
+     }
+     
+     .image img{
+          max-width: 100%;
+     
+     }
+     .raiting{
+          max-width: 100%;
+          margin-left: 20%;
+     }
+     
+     
+     .img-title{
+          font-size: 1rem;
+          font-weight: 700; 
+          margin-bottom: 0;   
+     }
+     .img-sub-title{
+          font-size: 0.8rem;
+     }
+     
+
+     .round {
+          max-width: 1%;
+          margin-top: 2%;
+          text-decoration: none;
+          display: inline-block;
+          padding: 18px 26px;
+     }
+        
+    
+     .previous {  
+          padding: 7px 18px;
+          margin-left: 40%;
+     }
+        
+     .next {
+          padding: 7px 18px;
+     }
+        
+     
+     
+     .brand-card{
+          width: 70%;
+          margin-left: 15%;          
+     }
+     
+   
+     .btn-img{
+          width: 70%;
+     }
+     .btn-brand{
+          /* margin-left: 15%; */
+     }
+    
+     
+     .trending-collection{
+          margin-top: 10%;
+          /* padding-left: 25%; */
+          font-size: 1.5rem;
+     }
+     
+     .trending-clothes{
+          margin: 0;
+     }
+     .buyers-brands{
+          margin-top: 0%;
+          /* padding-left: 24%; */
+          font-size: 0.6rem;
+     }
+     
+     .trending-cards{
+          width: 40%;
+          margin-top: 10%;
+          margin-left: 4%;
+          
+     }
+     .trend-card-row{
+          justify-content: center;
+
+     }
+     .trending-image img{
+          width: 100%;
+          vertical-align: middle;
+     
+     }
+     
+     
+     
+     .about-review{
+          margin-top: 2%;
+     }
+     .reviews{
+          position: absolute;
+          margin-top: 2%;
+          padding-left: 20%;
+     }
+     
+     .review-line{
+          /* margin-top: 2%; */
+          /* padding-left: 30%; */
+          font-size: 1.5rem;
+          margin-bottom: 0%;
+     }
+
+     .customer-line{
+          position: absolute;
+          width: 100%;
+          margin-top: 10%;
+          /* margin-left: 25%; */
+          font-size: 0.6rem;
+     }
+     
+     .review-img{
+          margin-top: 20%;
+          margin-left: 25%;
+     }
+     .review-card{
+          position: relative;
+     
+     }
+     .review-card-text{
+          position: relative;
+     }
+     .review-card-review{
+          width: 32%;
+          margin-left: 43%;
+          top: 55%;
+          font-size: 0.4rem;
+     }
+     
+     .card-previous {
+          left: 65%;
+          margin-top: 32%;
+          padding: 1px 7px;  
+          font-size: 0.5rem;        
+     }
+        
+     .card-next {
+          padding: 1px 7px;  
+          font-size: 0.5rem;          
+          left: 69%;
+          margin-top: 32%;
+     
+     }
+     
+     .news-img{
+          width: 15%;
+     }
+     
+     .subscribe-news{
+          margin-top: 2%;
+          /* padding-left: 35%; */
+          font-size: 1.5rem;
+     }
+     
+     .subscribe-email{
+          top:1%;
+          /* padding-left: 25%; */
+          font-size: 0.6rem;
+     }
+     .search-news{
+          margin-top: 5%;
+     } 
+     .input-group{
+          margin-left: 20%;
+          margin-top:10% ;
+          width: 70%; 
+          height: 50px;  
+     }
+     .form-control{
+          border-radius: 10px 10px;
+          border-radius: 100px;
+     }
+     .mail-img{
+          position: absolute;
+          margin-top: -4%;
+          margin-left: 52%;
+          width: 15%;
+     }      
+     .social-btn{
+          margin-top: 30%;
+          margin-left: 40%;
+          margin-bottom: 5%;
+          
+     }
+     
+     .btn-social-btn{
+          position: relative;
+          width: 25px;
+          height: 25px;
+          margin-left: 4%;
+     }
+     
+     .social-img{
+          width: 90%;
+     }
+     
+     .about-footer{
+          width: 90%;
+     }
+    
+}
+
+
+
+/* ------------------------------------------375--------------------------------------------- */
+
+@media screen and (max-width:426px) and (min-width:375px){
+
+
+     
+     #search{
+               flex-direction: column;
+               margin-left: 2%;
+     
+          }
+          .pop-img{
+               position: absolute;
+               top: 34%;
+               left: 18%;
+               width: 7%;
+          }
+          .pop-img-arrow{
+               position: absolute;
+               top: 16rem;
+               width: 2.2%;
+          }
+          .pop-img-heart{
+               position: absolute;
+               top: 18.2rem;
+               width: 2.2%;
+          }
+     
+     
+          
+          
+          
+          /* section */
+          .head-info{
+               opacity: 50%;
+               font-size: 0.5rem;
+               font-weight:500;
+               margin-bottom: 0%;  
+               padding-top: 25%;
+          }
+     
+          .explore{
+               margin-bottom: 0%;
+               font-size: 0.9rem;
+          }
+          
+          
+          .btn-success{
+               font-size: 0.5rem;
+               padding: 6px 7px;
+               
+          }
+          
+          #Himg{
+               /* position: absolute; */
+               max-width: 100%;
+               height: 100%;
+               /* left: 20%; */
+               top: 10%;
+          }
+          
+          
+          /* Offer */
+          
+           #offer-img-girls{
+               max-width: 38%;
+               left: 10%;
+               top: 110%;
+          }
+          .btn-success-girls{
+               font-size: 0.5rem;
+               padding: 2px 6px;
+               left: 13%;
+               margin-top: 12.5%;
+          }
+          
+          #offer-img-mens{
+               max-width: 38%;
+               left: 52%;
+          }
+          .btn-success-mens{
+               font-size: 0.5rem;
+               padding: 2px 6px;
+               left: 58%;
+               margin-top: 12.5%;
+          }
+          
+          
+          #offer-img-baby{     
+               max-width: 85%;
+               margin-left: 8%;
+          }
+          .btn-success-baby{
+               font-size: 0.5rem;
+               padding: 4px 8px;
+               left: 27%;
+               top: 25%;
+          }
+           
+          
+          
+          /* New Arrivals */
+          
+          .new-arrival{
+               /* padding-left: 35%; */
+               font-size: 1.5rem;
+     }
+          
+         .brands{
+               
+               /* margin-top: 1%; */
+               padding-left: 25%;
+               font-size: 0.6rem;
+     
+          }
+          
+          
+          
+          .arrival-button{
+               /* margin-top: 20%; */
+               /* padding-left: 25%; */
+               position: relative;
+          }
+          .btn-success-all{
+               width: 14%;
+               font-size: 0.5rem;
+               padding: 5px 8px;
+               margin-left: 0%;
+           
+           }
+           .btn-success-btnmen{
+               width: 14%;
+               font-size: 0.5rem;
+               padding: 6px 18px;
+               margin-left: 1%;
+           
+           }
+           .btn-success-btnwomen{
+               /* width: 80px; */
+               width: 14%;
+               font-size: 0.5rem;
+               padding: 6px 10px;
+               margin-left: 1%;
+           
+           }
+           .btn-success-btnkids{
+               width: 14%;
+               font-size: 0.5rem;          
+               padding: 6px 22px;
+               margin-left: 1%;
+           
+           }
+           
+          
+          
+           /* cards */
+          
+          .cards{
+               width: 40%;
+               margin-top: 15%;
+               margin-left: 0%;
+               /* display: inline-block; */
+               position: relative;
+               /* justify-content: center; */
+          }
+          .trending-cards-1{
+               max-width: 100%;
+               justify-content: center;
+               margin: 0;
+               padding: 0;
+          }
+          
+          .image img{
+               max-width: 100%;
+          
+          }
+          .raiting{
+               max-width: 100%;
+               margin-left: 20%;
+          }
+          
+          
+          .img-title{
+               font-size: 1rem;
+               font-weight: 700; 
+               margin-bottom: 0;   
+          }
+          .img-sub-title{
+               font-size: 0.8rem;
+          }
+          
+     
+          .round {
+               max-width: 1%;
+               margin-top: 2%;
+               text-decoration: none;
+               display: inline-block;
+               padding: 18px 26px;
+          }
+             
+         
+          .previous {  
+               padding: 7px 18px;
+               margin-left: 40%;
+          }
+             
+          .next {
+               padding: 7px 18px;
+          }
+             
+          
+          
+          .brand-card{
+               width: 70%;
+               margin-left: 15%;          
+          }
+          
+     
+          .btn-img{
+               width: 70%;
+          }
+          .btn-brand{
+               /* margin-left: 10%; */
+          }
+         
+          
+          .trending-collection{
+               margin-top: 10%;
+               /* padding-left: 20%; */
+               font-size: 1.5rem;
+          }
+          
+          .trending-clothes{
+               margin: 0;
+          }
+          .buyers-brands{
+               margin-top: 0%;
+               /* padding-left: 19%; */
+               font-size: 0.6rem;
+          }
+          
+          .trending-cards{
+               width: 40%;
+               margin-top: 10%;
+               margin-left: 4%;
+               
+          }
+          .trend-row-card{
+               justify-content: center ;
+     
+          }
+          .trending-image img{
+               width: 100%;
+               vertical-align: middle;
+          
+          }
+          
+          
+          
+          .about-review{
+               margin-top: 2%;
+          }
+          .reviews{
+               position: absolute;
+               margin-top: 2%;
+               padding-left: 20%;
+          }
+          
+          .review-line{
+               /* margin-top: 2%; */
+               /* padding-left: 30%; */
+               font-size: 1.5rem;
+               margin-bottom: 0%;
+          }
+     
+          .customer-line{
+               position: absolute;
+               width: 100%;
+               margin-top: 10%;
+               /* margin-left: 25%; */
+               font-size: 0.6rem;
+          }
+          
+          .review-img{
+               margin-top: 20%;
+               margin-left: 15%;
+               width: 80%;
+               height: 90%;
+
+          }
+          .review-card{
+               position: relative;
+          
+          }
+          .review-card-text{
+               position: relative;
+          }
+          .review-card-review{
+               width: 37%;
+               margin-left: 43%;
+               top: 48%;
+               font-size: 0.4rem;
+          }
+          
+          .card-previous {
+               left: 65%;
+               margin-top: 36%;
+               padding: 1px 7px;  
+               font-size: 0.5rem;        
+          }
+             
+          .card-next {
+               padding: 1px 7px;  
+               font-size: 0.5rem;          
+               left: 71%;
+               margin-top: 36%;
+          
+          }
+          
+          .news-img{
+               width: 15%;
+          }
+          
+          .subscribe-news{
+               margin-top: 2%;
+               /* padding-left: 28%; */
+               font-size: 1rem;
+          }
+          
+          .subscribe-email{
+               top:10%;
+               /* padding-left: 20%; */
+               font-size: 0.6rem;
+          }
+          .search-news{
+               margin-top: 5%;
+          } 
+          .input-group{
+               margin-left: 15%;
+               margin-top:7% ;
+               width: 70%; 
+               font-size: 0.8rem;
+               height: 5%;  
+          }
+          .form-control{
+               border-radius: 5px 5px;
+               border-radius: 100px;
+          }
+          /* .mail-img{
+               position: absolute;
+               margin-top: -2%;
+               margin-left: 52%;
+               width: 15%;
+          }       */
+          .mail-img-btn {
+               width: 10%;
+          }
+          .social-btn{
+               margin-top: 30%;
+               margin-left: 35%;
+               margin-bottom: 5%;
+               
+          }
+          
+          .btn-social-btn{
+               position: relative;
+               width: 25px;
+               height: 25px;
+               margin-left: 4%;
+          }
+          
+          .social-img{
+               width: 90%;
+          }
+          
+          .about-footer{
+               width: 90%;
+          }
+         
+     }
+
+
+
+
+
+/* ---------------------------------320------------------------------------ */
+
+
+     @media screen and (max-width:374px) and (min-width:320px){
+          
+               
+          .nav-link{
+               font-size: 0.8rem;
+          }
+          #search{
+               flex-direction: column;
+               margin-left: 4%;
+               width: 50%;
+     
+          }
+          .search-nav{
+               font-size: 0.8rem;
+               width: 100%;
+          }
+          .pop-img{
+               position: absolute;
+               top: 34%;
+               left: 18%;
+               width: 9%;
+          }
+          .pop-img-arrow{
+               position: absolute;
+               top: 16rem;
+               width: 4%;
+          }
+          .pop-img-heart{
+               position: absolute;
+               top: 18.2rem;
+               width: 4%;
+          }
+            
+               /* section */
+               .head-info{
+                    opacity: 50%;
+                    font-size: 0.4rem;
+                    font-weight:500;
+                    margin-bottom: 0%;  
+                    padding-top: 25%;
+               }
+          
+               .explore{
+                    margin-bottom: 0%;
+                    font-size: 0.7rem;
+               }
+               
+               
+               .btn-success{
+                    font-size: 0.5rem;
+                    padding: 3px 7px;
+                    
+               }
+               
+               #Himg{
+                    /* position: absolute; */
+                    max-width: 100%;
+                    height: 100%;
+                    /* left: 20%; */
+                    top: 10%;
+               }
+               
+               
+               /* Offer */
+               
+                #offer-img-girls{
+                    max-width: 38%;
+                    left: 10%;
+                    top: 110%;
+               }
+               .btn-success-girls{
+                    font-size: 0.4rem;
+                    padding: 2px 6px;
+                    left: 13%;
+                    margin-top: 12.5%;
+               }
+               
+               #offer-img-mens{
+                    max-width: 38%;
+                    left: 52%;
+               }
+               .btn-success-mens{
+                    font-size: 0.4rem;
+                    padding: 2px 6px;
+                    left: 58%;
+                    margin-top: 12.5%;
+               }
+               
+               
+               #offer-img-baby{     
+                    max-width: 85%;
+                    margin-left: 8%;
+               }
+               .btn-success-baby{
+                    font-size: 0.5rem;
+                    padding: 4px 8px;
+                    left: 27%;
+                    top: 25%;
+               }
+                
+               
+               
+               /* New Arrivals */
+               
+               .new-arrival{
+                    margin-top: 5%;
+                    font-size: 1rem;
+          }
+               
+              .brands{
+                    
+                    /* margin-top: 1%; */
+                    padding-left: 20%;
+                    font-size: 0.5rem;
+          
+               }
+               
+               
+               
+               .arrival-button{
+                    /* margin-top: 20%; */
+                    /* padding-left: 25%; */
+                    position: relative;
+               }
+               .btn-success-all{
+                    width: 14%;
+                    font-size: 0.5rem;
+                    padding: 5px 8px;
+                    margin-left: 0%;
+                    text-align: center;
+                
+                }
+                .btn-success-btnmen{
+                    width: 14%;
+                    text-align: center;
+                    font-size: 0.5rem;
+                    padding: 6px 6px;
+                    margin-left: 1%;
+                
+                }
+                .btn-success-btnwomen{
+                    /* width: 80px; */
+                    width: 14%;
+                    text-align: center;
+                    font-size: 0.5rem;
+                    padding: 6px 6px;
+                    margin-left: 1%;
+                
+                }
+                .btn-success-btnkids{
+                    width: 14%;
+                    text-align: center;
+                    font-size: 0.5rem;          
+                    padding: 6px 6px;
+                    margin-left: 1%;
+                
+                }
+                
+               
+               
+                /* cards */
+               
+               .cards{
+                    width: 40%;
+                    margin-top: 15%;
+                    margin-left: 0%;
+                    /* display: inline-block; */
+                    position: relative;
+                    /* justify-content: center; */
+               }
+               .trending-cards-1{
+                    max-width: 100%;
+                    justify-content: center;
+                    margin: 0;
+                    padding: 0;
+               }
+               
+               .image img{
+                    max-width: 100%;
+               
+               }
+               .raiting{
+                    max-width: 100%;
+                    /* margin-left: 20%; */
+               }
+               
+               
+               .img-title{
+                    font-size: 0.8rem;
+                    /* font-weight: bold;  */
+                    margin-bottom: 0;   
+               }
+               .img-sub-title{
+                    font-size: 0.7rem;
+               }
+               .pricing{
+                    font-size: 0.8rem;
+               }
+          
+               .round {
+                    max-width: 1%;
+                    margin-top: 2%;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 18px 26px;
+               }
+                  
+              
+               .previous {  
+                    padding: 1px 12px;
+                    margin-left:38%;
+               }
+                  
+               .next {
+                    padding: 1px 12px;
+               }
+                  
+               
+               
+               .brand-card{
+                    width: 70%;
+                    margin-left: 15%;          
+               }
+               
+               .card-text{
+                    /* margin-left: 10%; */
+                    font-size: 1.5rem;
+               }
+               .card-text-2{
+                    /* margin-left: 18%; */
+                    font-size: 0.8rem;
+               }
+               .btn-img{
+                    width: 70%;
+               }
+               .btn-brand{
+                    /* justify-content: center; */
+                    /* margin-left: 25%; */
+                    
+               }
+              
+               
+               .trending-collection{
+                    margin-top: 10%;
+                    /* padding-left: 20%; */
+                    font-size: 1rem;
+               }
+               
+               .trending-clothes{
+                    margin: 0;
+               }
+               .buyers-brands{
+                    margin-top: 0%;
+                    /* padding-left: 19%; */
+                    font-size: 0.5rem;
+               }
+               
+               .trending-cards{
+                    width: 40%;
+                    margin-top: 10%;
+                    margin-left: 4%;
+                    
+               }
+               .trend-row-card{
+                    justify-content: center ;
+          
+               }
+               .trending-image img{
+                    width: 100%;
+                    vertical-align: middle;
+               
+               }
+               
+               
+               
+               .about-review{
+                    margin-top: 2%;
+               }
+               .reviews{
+                    position: absolute;
+                    margin-top: 2%;
+                    padding-left: 20%;
+               }
+               
+               .review-line{
+                    /* margin-top: 2%; */
+                    /* padding-left: 10%; */
+                    font-size: 1.5rem;
+                    margin-bottom: 0%;
+               }
+          
+               .customer-line{
+                    position: absolute;
+                    width: 100%;
+                    margin-top: 13%;
+                    /* margin-left: 25%; */
+                    font-size: 0.6rem;
+               }
+               
+               .review-img{
+                    margin-top: 20%;
+                    margin-left: 10%;
+                    width: 85%;
+                    height: 100px;
+     
+               }
+               .review-card{
+                    position: relative;
+               
+               }
+               .review-card-text{
+                    position: relative;
+               }
+               .review-card-review{
+                    width: 37%;
+                    margin-left: 43%;
+                    top: 42%;
+                    font-size: 0.4rem;
+               }
+               
+               .card-previous {
+                    left: 58%;
+                    margin-top: 45%;
+                    padding: 1px 7px;  
+                    font-size: 0.5rem;        
+               }
+                  
+               .card-next {
+                    padding: 1px 7px;  
+                    font-size: 0.5rem;          
+                    left: 71%;
+                    margin-top: 45%;
+               
+               }
+               
+               .news-img{
+                    width: 15%;
+                    margin-left: 42%;
+               }
+               
+               .subscribe-news{
+                    margin-top: 2%;
+                    /* padding-left: 20%; */
+                    font-size: 1rem;
+               }
+               
+               .subscribe-email{
+                    top:10%;
+                    /* padding-left: 15%; */
+                    font-size: 0.5rem;
+               }
+               
+
+               .mail-img-btn{
+                    top: 50%;
+                    right: 10px;
+                    width: 18%;
+                    transform: translatey(-50%);
+               }
+               
+               .input-group{
+                    margin-left: 15%;
+                    margin-top:5% ;
+                    width: 70%; 
+                    font-size: 0.7rem;
+                    height: 5%;  
+               }
+               .form-control{
+                    border-radius: 5px 5px;
+                    border-radius: 100px;
+               }
+               .mail-img{
+                    position: absolute;
+                    margin-top: -2%;
+                    margin-left: 52%;
+                    width: 15%;
+               }      
+               .social-btn{
+                    margin-top: 35%;
+                    margin-left: 30%;
+                    margin-bottom: 5%;
+                    
+               }
+               
+               .btn-social-btn{
+                    position: relative;
+                    width: 25px;
+                    height: 25px;
+                    margin-left: 4%;
+               }
+               
+               .social-img{
+                    width: 90%;
+                    
+               }
+               
+               .about-footer{
+                    width: 90%;
+               }
+              
+          }
+     
+
+
+
+
+/* 
+.mail-img::after{
+     content:url('Images/mail.png'); 
+     z-index:100000; 
+     margin-top: 4%;
+     margin-left: 54%;
+     width: 10%;
+   } */
+
+
+/* .branding{
+     border: 2px solid black;
+} */
+
+ /* .Trending{
+     background: white;
+     padding: 10px;
+} */
+/* img{
+     max-width: 100%;
+     height: auto;
+     vertical-align: middle;
+     display: inline-block;
+}
+.grid-container > div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.grid-container > div >img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     border-radius: 5px;
+     margin-top: 1550px;
+}
+.grid-container{
+     display: grid;
+     grid-gap: 0.5px;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     grid-auto-rows: 200px;
+     grid-auto-flow: dense;
+}
+.grid-container .wide{
+     grid-column: span 2;
+}
+.grid-container .tall{
+     grid-row: span 2;
+}
+.grid-container .big {
+     grid-column: span 2;
+     grid-row: span 2;
+}  */
